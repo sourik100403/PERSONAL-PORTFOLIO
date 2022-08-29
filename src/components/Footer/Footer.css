@@ -1,0 +1,160 @@
+.footer {
+    /* background-color: rgb(26, 26, 26); */
+    background-image: linear-gradient( 109.6deg,  rgba(118,12,99,1) 11.2%, rgba(71,11,75,1) 98.6% );
+    background-image: linear-gradient( 135.9deg,  rgba(109,25,252,1) 16.4%, rgba(125,31,165,1) 56.1% );
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+
+}
+
+.leftFooter h3{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+.footer>div>h5 {
+    color: white;
+    width: 120px;
+    border-bottom: 1px solid white;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.footer>div>p {
+    color: white;
+    width: 60%;
+}
+
+span {
+    font-family: 'Sacramento', cursive;
+    font-size: 20px;
+}
+
+.rightFooter>h6 {
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    font-size: 30px;
+}
+
+.rightFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.socialMedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.socialMedia >a {
+    font-size: 3vmax;
+    color: white;
+    transition: all 0.3s;
+    margin: 0 10px;
+    width: 100px;
+    height: 60px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow: inset -2px -2px 2px rgba(255, 255, 255, 0.4);
+    
+    
+}
+
+.socialMedia img {
+    width: 100%;
+    transition: all 0.4s;
+    /* filter: invert(1); */
+}
+
+.socialMedia img:hover {
+    transform: translateY(-20px);
+}
+
+
+
+/* .socialMedia>a:hover {
+    transform: scale(1.2) translateY(-8px);
+
+} */
+
+/* .socialMedia>a:nth-child(1):hover {
+    color: rgb(37, 50, 122);
+}
+
+.socialMedia>a:nth-child(2):hover {
+    color: rgb(241, 59, 59);
+}
+
+.socialMedia>a:nth-child(3):hover {
+    color: rgb(119, 61, 212);
+}
+
+.socialMedia>a:nth-child(4):hover {
+    color: rgb(64, 88, 226);
+}
+ */
+
+
+
+
+@media (max-width:800px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftFooter {
+
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .leftFooter h3{
+        text-align: center;
+    }
+
+    .footer>div>p {
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .socialMedia>a {
+        width: 70px;
+    }
+
+    
+
+    .socialMedia {
+        margin-top: 0;
+    }
+
+    .rightFooter>h6 {
+        font-size: 25px;
+        font-family: 'Sacramento', cursive;
+
+    }
+}
+
+
+@media (max-width:400px){
+    .socialMedia>a {
+        width: 50px;
+    }
+
+ }
+ 
