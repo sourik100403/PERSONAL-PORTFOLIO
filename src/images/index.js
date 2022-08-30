@@ -53,10 +53,6 @@ import php from "./php.jpeg"
 
 
 import menu from "./menu.png"
-import project1 from "./project1.jpg"
-import project2 from "./project2.jpg"
-import project3 from "./project3.jpg"
-
 
 // project images importing here 
 
@@ -141,6 +137,5 @@ i,a,m,f,r,o,n,t,e,d,v,p,l,u,s,c,k,h,
 fb, insta, linkedin,git,gmail,my,
 contact,
 alllang,bootstrap,css,react,javascript,php,html,
-project1,project2,project3,
 netflixClone,fromvalid,libmanage,chatapp,textconverter,spotifyHomepage,myntraClone,facebookClone,spotify,notesapp,newsworld,postmaster,dragdrop,youtubeClone,instragram,ecommerce,enotebook
 } 
